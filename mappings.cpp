@@ -1,0 +1,4 @@
+
+// Hashmap?
+PhonemeToGraphemeMapping phonemeToGrapheme[] = {}; 
+	
