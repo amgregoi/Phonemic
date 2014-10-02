@@ -4,6 +4,7 @@
 #include <cstdlib>
 using namespace std;
 
+/*this is new let me commit */
 #define FILE_LENGTH 100
 
 ifstream infile("dictionary.txt");
