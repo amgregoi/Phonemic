@@ -1,0 +1,40 @@
+a 1 a 1 a_ 
+and 3 a n d 3 a n d 
+away 3 a w ay 3 u w a_ 
+big 3 b i g 3 b i g 
+blue 3 b l ue 3 b l u_ 
+can 3 c a n 3 k a n 
+come 3 c o me 3 k u m 
+down 3 d ow n 3 d ow n 
+find 4 f i n d 4 f i_ n d 
+for 2 f or 2 f or 
+funny 4 f u nn y 4 f u n e_ 
+go 2 g o 2 g o_ 
+help 4 h e l p 4 h e l p 
+here 2 h ere 2 h ir 
+I 1 I 1 i_ 
+in 2 i n 2 i n 
+is 2 i s 2 i s 
+it 2 i t 2 i t 
+jump 4 j u m p 4 j u m p 
+little 4 l i tt le 4 l i t l 
+look 3 l oo k 3 l oo k 
+make 3 m a ke 3 m a_ k 
+me 2 m e 2 m e_ 
+my 2 m y 2 m i_ 
+not 3 n o t 3 n o t 
+one 3 o _ ne 3 w u n 
+play 3 p l ay 3 p l a_ 
+red 3 r e d 3 r e d 
+run 3 r u n 3 r u n 
+said 3 s ai d 3 s e d 
+see 2 s ee 2 s e_ 
+the 2 th e 2 th_ u(e_) 
+three 3 th r ee 3 th r e_ 
+to 2 t o 2 t u_ 
+two 2 t wo 2 t u_ 
+up 2 u p 2 u p 
+we 2 w e 2 w e_ 
+where 2 wh ere 2 wh ar_ 
+yellow 4 y e ll ow 4 y e l o_ 
+you 2 y ou 2 y oo 
