@@ -7,6 +7,7 @@ Icon = image{ "assets/phonemic.png" }
 
 BootstrapAssets = group{ quality=9.9 }
 Smile = image{ "assets/smile.png" }
+Cat = image{ "assets/cat.png" }
 Sleep = image{ "assets/sleep.png" }
 Highlight = image{ "assets/highlight.png", pinned=true } 
 
@@ -14,6 +15,7 @@ SfxAttach = sound{ "assets/snap.wav" }
 SfxDetach = sound{ "assets/pop.wav" }
 SfxBuzzer = sound{ "assets/buzz.wav" }
 SfxChime = sound{ "assets/chime.wav" }
+SfxCat = sound{ "assets/cat.wav" }
 
 -- Graphemes
 Grapheme_a = {
