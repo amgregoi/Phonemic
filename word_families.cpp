@@ -4,7 +4,7 @@
 #include "word_families.h"
 
 WordFamily wordFamilies[] = {
-      {{
+     /* {{
         // cab,crab,dab,gab,grab,jab,nab,tab,
         { PAIR(k,c), PAIR(ab,ab),  -1 },
         { PAIR(k,c), PAIR(r,r), PAIR(ab,ab),  -1 },
@@ -69,19 +69,19 @@ WordFamily wordFamilies[] = {
         { PAIR(n,n), PAIR(ap,ap),  -1 },
         { PAIR(s,s), PAIR(n,n), PAIR(ap,ap),  -1 },
         { PAIR(t,t), PAIR(ap,ap),  -1 },
-   }},
+   }},*/
    {{
         // bat,cat,fat,hat,mat,pat,rat,sat
-        { PAIR(b,b), PAIR(at,at),  -1 },
+        //{ PAIR(b,b), PAIR(at,at),  -1 },
         { PAIR(k,c), PAIR(at,at),  -1 },
-        { PAIR(f,f), PAIR(at,at),  -1 },
-        { PAIR(h,h), PAIR(at,at),  -1 },
-        { PAIR(m,m), PAIR(at,at),  -1 },
-        { PAIR(p,p), PAIR(at,at),  -1 },
-        { PAIR(r,r), PAIR(at,at),  -1 },
-        { PAIR(s,s), PAIR(at,at),  -1 },
+        //{ PAIR(f,f), PAIR(at,at),  -1 },
+        //{ PAIR(h,h), PAIR(at,at),  -1 },
+        //{ PAIR(m,m), PAIR(at,at),  -1 },
+        //{ PAIR(p,p), PAIR(at,at),  -1 },
+        //{ PAIR(r,r), PAIR(at,at),  -1 },
+        //{ PAIR(s,s), PAIR(at,at),  -1 },
    }},
-   
+   /*
    {{
         // bed,fed,led,red,shed,sled,sped,wed
         { PAIR(b,b), PAIR(ed,ed),  -1 },
@@ -282,7 +282,7 @@ WordFamily wordFamilies[] = {
         { PAIR(s,s), PAIR(p,p), PAIR(un,un),  -1 },
         { PAIR(s,s), PAIR(t,t), PAIR(un,un),  -1 },
         { PAIR(s,s), PAIR(un,un),  -1 },
-   }},
+   }},*/
 
    
 };
