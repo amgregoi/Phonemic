@@ -47,8 +47,8 @@ void Phonemic::init()
 		i++;
 	}
 		
-	//level = gRandom.randint(0, LAST_LEVEL-1);
-	//word = -1;
+	level = gRandom.randint(0, LAST_LEVEL-1);
+	word = -1;
 	nextWord();
 }
 
@@ -59,7 +59,7 @@ void Phonemic::init()
 void Phonemic::nextWord()
 {
     // Advance the word (and level)
-	/*word++;
+	word++;
 	if(word >= 8) {
 		level++;
 		word = 0;
@@ -67,9 +67,7 @@ void Phonemic::nextWord()
     if(level > LAST_LEVEL) {
         level = 0;
         word = 0;
-    }*/
-	level = 0;
-	word = 0;
+    }
 
     // Test for game over
     // TODO: check for end-of-game
@@ -207,7 +205,7 @@ void Phonemic::checkForWord(unsigned id) {
     // Recognize match
 	if(match) {
     	//sounding.play(SfxChime);
-	sounding.play(SfxCat);
+		sounding.play(SfxCat);
         allSmiles();
         System::paint();
         state = WORD_FOUND;
