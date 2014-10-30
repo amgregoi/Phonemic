@@ -4,7 +4,32 @@
 #include "word_families.h"
 
 WordFamily wordFamilies[] = {
+
    {{
+        // apple,back,ball,bear,bed,bell,bird,car,
+        { PAIR(a,a), PAIR(p,p), PAIR(l,l),  -1 },
+        { PAIR(b,b), PAIR(a,a), PAIR(k,k),  -1 },
+        { PAIR(b,b), PAIR(o,a), PAIR(l,l),  -1 },
+        { PAIR(b,b), PAIR(e,e), PAIR(r,r),  -1 },
+        { PAIR(b,b), PAIR(e,e), PAIR(d,d),  -1 },
+        { PAIR(b,b), PAIR(e,e), PAIR(l,l),  -1 },
+        { PAIR(b,b), PAIR(r,r), PAIR(d,d),  -1 },
+		{ PAIR(k,c), PAIR(o,a), PAIR(r,r),  -1 },
+   }},
+
+   {{
+        // cat,chair,dog,doll,duck,egg,fish,head
+        { PAIR(k,c), PAIR(a,a), PAIR(t,t),  -1 },
+        { PAIR(ch,ch), PAIR(e,e), PAIR(r,r),  -1 },
+        { PAIR(d,d), PAIR(a,o), PAIR(g,g),  -1 },
+        { PAIR(d,d), PAIR(a,o), PAIR(l,l),  -1 },
+        { PAIR(d,d), PAIR(u,u), PAIR(k,k),  -1 },
+        { PAIR(e,e), PAIR(g,g),  -1 },
+        { PAIR(f,f), PAIR(i,i), PAIR(sh,sh),  -1 },
+        { PAIR(h,h), PAIR(e,e), PAIR(d,d),  -1 },
+   }},
+
+/*   {{
         // cab,crab,dab,gab,grab,jab,nab,tab,
         { PAIR(k,c), PAIR(ab,ab),  -1 },
         { PAIR(k,c), PAIR(r,r), PAIR(ab,ab),  -1 },
@@ -281,9 +306,9 @@ WordFamily wordFamilies[] = {
         { PAIR(s,s), PAIR(p,p), PAIR(un,un),  -1 },
         { PAIR(s,s), PAIR(t,t), PAIR(un,un),  -1 },
         { PAIR(s,s), PAIR(un,un),  -1 },
-   }},
+   }},*/
 
-   
+ 
 };
 /*
 		{}

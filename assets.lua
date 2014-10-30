@@ -270,6 +270,7 @@ Phoneme_k = sound{"assets/phonemes/k.wav"}
 Phoneme_l = sound{"assets/phonemes/l.wav"}
 Phoneme_m = sound{"assets/phonemes/m.wav"}
 Phoneme_n = sound{"assets/phonemes/n.wav"}
+Phoneme_o = sound{"assets/phonemes/o_short.wav"}
 Phoneme_p = sound{"assets/phonemes/p.wav"}
 Phoneme_r = sound{"assets/phonemes/r.wav"}
 Phoneme_s = sound{"assets/phonemes/s.wav"}
