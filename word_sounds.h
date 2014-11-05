@@ -1,10 +1,13 @@
 #ifndef _WORD_SOUNDS_
 #define _WORD_SOUNDS_
 
-const int NUMBER = 16;
+#include <sifteo/string.h>
+#include "assets.gen.h"
+
+const int NUMBER_SOUNDS = 16;
  
 using namespace Sifteo;
 
-const string word_sounds[];
+const Sifteo::AssetAudio *word_sounds[8];
  
 #endif

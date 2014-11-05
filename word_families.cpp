@@ -17,7 +17,7 @@ WordFamily wordFamilies[] = {
 		{ PAIR(k,c), PAIR(o,a), PAIR(r,r),  -1 },
    }},
 
-   {{
+ /*  {{
         // cat,chair,dog,doll,duck,egg,fish,head
         { PAIR(k,c), PAIR(a,a), PAIR(t,t),  -1 },
         { PAIR(ch,ch), PAIR(e,e), PAIR(r,r),  -1 },
@@ -27,7 +27,7 @@ WordFamily wordFamilies[] = {
         { PAIR(e,e), PAIR(g,g),  -1 },
         { PAIR(f,f), PAIR(i,i), PAIR(sh,sh),  -1 },
         { PAIR(h,h), PAIR(e,e), PAIR(d,d),  -1 },
-   }},
+   }},*/
 
 /*   {{
         // cab,crab,dab,gab,grab,jab,nab,tab,

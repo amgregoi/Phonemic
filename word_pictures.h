@@ -1,10 +1,13 @@
 #ifndef _WORD_PICTURES_
 #define _WORD_PICTURES_
 
-const int NUMBER = 16;
+#include <sifteo/string.h>
+#include "assets.gen.h"
+
+const int NUMBER_PICS = 16;
  
 using namespace Sifteo;
 
-const string word_pictures[];
+const Sifteo::AssetImage *word_pictures[8];
  
 #endif
