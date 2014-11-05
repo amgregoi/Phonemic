@@ -2,6 +2,8 @@
 
 -- Metadata
 
+-- documention for stir we need to change the granularity to make less tiles
+-- or maybe we could just allow for more tiles
 IconAssets = group{ quality=9.95 }
 Icon = image{ "assets/phonemic.png" }
 
@@ -373,7 +375,6 @@ ChunkImage_car = image{"assets/dolch_pics/car.png"}
 --ChunkImage_wood = image{"assets/dolch_pics/wood.png"}
 --ChunkImage_water = image{"assets/dolch_pics/water.png"}
 --ChunkImage_window = image{"assets/dolch_pics/window.png"}
-
 
 -- Word sounds
 ChunkSound_bed = sound{"assets/dolch_voice/bed.wav"}
