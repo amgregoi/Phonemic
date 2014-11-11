@@ -9,6 +9,8 @@
 #include "assets.gen.h"
 #include "pairings.h"
 #include "word_families.h"
+#include "word_pictures.h"
+#include "word_sounds.h"
  
 using namespace Sifteo;
  

@@ -9,6 +9,10 @@ PhonemeGraphemePair pairs[] = {
 
     // consonant sounds
     //==================
+	PAIR_DEF(a, a),
+	PAIR_DEF(o, a),
+	PAIR_DEF(e, e),
+	
     PAIR_DEF(b, b),
     //PAIR_DEF(b, bb),
     

@@ -2,12 +2,14 @@
 
 -- Metadata
 
+-- documention for stir we need to change the granularity to make less tiles
+-- or maybe we could just allow for more tiles
 IconAssets = group{ quality=9.95 }
 Icon = image{ "assets/phonemic.png" }
 
 BootstrapAssets = group{ quality=9.9 }
 Smile = image{ "assets/smile.png" }
-Cat = image{ "assets/cat.png" }
+--Cat = image{ "assets/cat.png" }
 Sleep = image{ "assets/sleep.png" }
 Highlight = image{ "assets/highlight.png", pinned=true } 
 
@@ -15,7 +17,7 @@ SfxAttach = sound{ "assets/snap.wav" }
 SfxDetach = sound{ "assets/pop.wav" }
 SfxBuzzer = sound{ "assets/buzz.wav" }
 SfxChime = sound{ "assets/chime.wav" }
-SfxCat = sound{ "assets/cat.wav" }
+--SfxCat = sound{ "assets/cat.wav" }
 
 -- Graphemes
 Grapheme_a = {
@@ -270,6 +272,7 @@ Phoneme_k = sound{"assets/phonemes/k.wav"}
 Phoneme_l = sound{"assets/phonemes/l.wav"}
 Phoneme_m = sound{"assets/phonemes/m.wav"}
 Phoneme_n = sound{"assets/phonemes/n.wav"}
+Phoneme_o = sound{"assets/phonemes/o_short.wav"}
 Phoneme_p = sound{"assets/phonemes/p.wav"}
 Phoneme_r = sound{"assets/phonemes/r.wav"}
 Phoneme_s = sound{"assets/phonemes/s.wav"}
@@ -314,65 +317,64 @@ ChunkSound_un = sound{"assets/phonemes/un.wav"}
 
 -- Word images
 ChunkImage_apple = image{"assets/dolch_pics/apple.png"}
-ChunkImage_baby = image{"assets/dolch_pics/baby.png"}
+--ChunkImage_baby = image{"assets/dolch_pics/baby.png"}
 ChunkImage_back = image{"assets/dolch_pics/back.png"}
 ChunkImage_ball = image{"assets/dolch_pics/ball.png"}
 ChunkImage_bear = image{"assets/dolch_pics/bear.png"}
 ChunkImage_bed = image{"assets/dolch_pics/bed.png"}
 ChunkImage_bell = image{"assets/dolch_pics/bell.png"}
 ChunkImage_bird = image{"assets/dolch_pics/bird.png"}
-ChunkImage_boat = image{"assets/dolch_pics/boat.png"}
-ChunkImage_box = image{"assets/dolch_pics/box.png"}
-ChunkImage_boy = image{"assets/dolch_pics/boy.png"}
-ChunkImage_bread = image{"assets/dolch_pics/bread.png"}
-ChunkImage_cake = image{"assets/dolch_pics/cake.png"}
+--ChunkImage_boat = image{"assets/dolch_pics/boat.png"}
+--ChunkImage_box = image{"assets/dolch_pics/box.png"}
+--ChunkImage_boy = image{"assets/dolch_pics/boy.png"}
+--ChunkImage_bread = image{"assets/dolch_pics/bread.png"}
+--ChunkImage_cake = image{"assets/dolch_pics/cake.png"}
 ChunkImage_car = image{"assets/dolch_pics/car.png"}
-ChunkImage_cat = image{"assets/dolch_pics/cat.png"}
-ChunkImage_chair = image{"assets/dolch_pics/chair.png"}
-ChunkImage_chicken = image{"assets/dolch_pics/chicken.png"}
-ChunkImage_coat = image{"assets/dolch_pics/coat.png"}
-ChunkImage_corn = image{"assets/dolch_pics/corn.png"}
-ChunkImage_cow = image{"assets/dolch_pics/cow.png"}
-ChunkImage_dog = image{"assets/dolch_pics/dog.png"}
-ChunkImage_doll = image{"assets/dolch_pics/doll.png"}
-ChunkImage_door = image{"assets/dolch_pics/door.png"}
-ChunkImage_duck = image{"assets/dolch_pics/duck.png"}
-ChunkImage_egg = image{"assets/dolch_pics/egg.png"}
-ChunkImage_eye = image{"assets/dolch_pics/eye.png"}
-ChunkImage_farm = image{"assets/dolch_pics/farm.png"}
-ChunkImage_feet = image{"assets/dolch_pics/feet.png"}
-ChunkImage_fire = image{"assets/dolch_pics/fire.png"}
-ChunkImage_fish = image{"assets/dolch_pics/fish.png"}
-ChunkImage_flower = image{"assets/dolch_pics/flower.png"}
-ChunkImage_garden = image{"assets/dolch_pics/garden.png"}
-ChunkImage_girl = image{"assets/dolch_pics/girl.png"}
-ChunkImage_grass = image{"assets/dolch_pics/grass.png"}
-ChunkImage_hand = image{"assets/dolch_pics/hand.png"}
-ChunkImage_head = image{"assets/dolch_pics/head.png"}
-ChunkImage_hill = image{"assets/dolch_pics/hill.png"}
-ChunkImage_home = image{"assets/dolch_pics/home.png"}
-ChunkImage_horse = image{"assets/dolch_pics/horse.png"}
-ChunkImage_milk = image{"assets/dolch_pics/milk.png"}
-ChunkImage_money = image{"assets/dolch_pics/money.png"}
-ChunkImage_nest = image{"assets/dolch_pics/nest.png"}
-ChunkImage_paper = image{"assets/dolch_pics/paper.png"}
-ChunkImage_pig = image{"assets/dolch_pics/pig.png"}
-ChunkImage_rabbit = image{"assets/dolch_pics/rabbit.png"}
-ChunkImage_rain = image{"assets/dolch_pics/rain.png"}
-ChunkImage_ring = image{"assets/dolch_pics/ring.png"}
-ChunkImage_santa_claus = image{"assets/dolch_pics/santa_claus.png"}
-ChunkImage_sheep = image{"assets/dolch_pics/sheep.png"}
-ChunkImage_shoe = image{"assets/dolch_pics/shoe.png"}
-ChunkImage_squirrel = image{"assets/dolch_pics/squirrel.png"}
-ChunkImage_sun = image{"assets/dolch_pics/sun.png"}
-ChunkImage_table = image{"assets/dolch_pics/table.png"}
-ChunkImage_time = image{"assets/dolch_pics/time.png"}
-ChunkImage_tree = image{"assets/dolch_pics/tree.png"}
-ChunkImage_watch = image{"assets/dolch_pics/watch.png"}
-ChunkImage_wood = image{"assets/dolch_pics/wood.png"}
-ChunkImage_water = image{"assets/dolch_pics/water.png"}
-ChunkImage_window = image{"assets/dolch_pics/window.png"}
-
+--ChunkImage_cat = image{"assets/dolch_pics/cat.png"}
+--ChunkImage_chair = image{"assets/dolch_pics/chair.png"}
+--ChunkImage_chicken = image{"assets/dolch_pics/chicken.png"}
+--ChunkImage_coat = image{"assets/dolch_pics/coat.png"}
+--ChunkImage_corn = image{"assets/dolch_pics/corn.png"}
+--ChunkImage_cow = image{"assets/dolch_pics/cow.png"}
+--ChunkImage_dog = image{"assets/dolch_pics/dog.png"}
+--ChunkImage_doll = image{"assets/dolch_pics/doll.png"}
+--ChunkImage_door = image{"assets/dolch_pics/door.png"}
+--ChunkImage_duck = image{"assets/dolch_pics/duck.png"}
+--ChunkImage_egg = image{"assets/dolch_pics/egg.png"}
+--ChunkImage_eye = image{"assets/dolch_pics/eye.png"}
+--ChunkImage_farm = image{"assets/dolch_pics/farm.png"}
+--ChunkImage_feet = image{"assets/dolch_pics/feet.png"}
+--ChunkImage_fire = image{"assets/dolch_pics/fire.png"}
+--ChunkImage_fish = image{"assets/dolch_pics/fish.png"}
+--ChunkImage_flower = image{"assets/dolch_pics/flower.png"}
+--ChunkImage_garden = image{"assets/dolch_pics/garden.png"}
+--ChunkImage_girl = image{"assets/dolch_pics/girl.png"}
+--ChunkImage_grass = image{"assets/dolch_pics/grass.png"}
+--ChunkImage_hand = image{"assets/dolch_pics/hand.png"}
+--ChunkImage_head = image{"assets/dolch_pics/head.png"}
+--ChunkImage_hill = image{"assets/dolch_pics/hill.png"}
+--ChunkImage_home = image{"assets/dolch_pics/home.png"}
+--ChunkImage_horse = image{"assets/dolch_pics/horse.png"}
+--ChunkImage_milk = image{"assets/dolch_pics/milk.png"}
+--ChunkImage_money = image{"assets/dolch_pics/money.png"}
+--ChunkImage_nest = image{"assets/dolch_pics/nest.png"}
+--ChunkImage_paper = image{"assets/dolch_pics/paper.png"}
+--ChunkImage_pig = image{"assets/dolch_pics/pig.png"}
+--ChunkImage_rabbit = image{"assets/dolch_pics/rabbit.png"}
+--ChunkImage_rain = image{"assets/dolch_pics/rain.png"}
+--ChunkImage_ring = image{"assets/dolch_pics/ring.png"}
+--ChunkImage_santa_claus = image{"assets/dolch_pics/santa_claus.png"}
+--ChunkImage_sheep = image{"assets/dolch_pics/sheep.png"}
+--ChunkImage_shoe = image{"assets/dolch_pics/shoe.png"}
+--ChunkImage_squirrel = image{"assets/dolch_pics/squirrel.png"}
+--ChunkImage_sun = image{"assets/dolch_pics/sun.png"}
+--ChunkImage_table = image{"assets/dolch_pics/table.png"}
+--ChunkImage_time = image{"assets/dolch_pics/time.png"}
+--ChunkImage_tree = image{"assets/dolch_pics/tree.png"}
+--ChunkImage_watch = image{"assets/dolch_pics/watch.png"}
+--ChunkImage_wood = image{"assets/dolch_pics/wood.png"}
+--ChunkImage_water = image{"assets/dolch_pics/water.png"}
+--ChunkImage_window = image{"assets/dolch_pics/window.png"}
 
 -- Word sounds
 ChunkSound_bed = sound{"assets/dolch_voice/bed.wav"}

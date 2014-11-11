@@ -110,6 +110,10 @@ enum pairings{
     // short vowel sounds
     //=====================
     //TODO: SHORT VOWELS
+	
+	PAIR(a, a),
+	PAIR(o, a),
+	PAIR(e, e),
     
     
     // short vowel sounds

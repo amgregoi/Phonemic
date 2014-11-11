@@ -5,8 +5,12 @@
 #include <sifteo.h>
 #include <sifteo/audio.h>
 #include "phonemic.h"
+#include <sifteo/asset.h>
+#include "assets.gen.h"
  
-#define LAST_LEVEL 24
+#define LAST_LEVEL 0 //24
+
+int word_num;
  
 Random gRandom;
  
@@ -68,6 +72,8 @@ void Phonemic::nextWord()
         level = 0;
         word = 0;
     }
+	
+	word_num = (level * 8) + word;
 
     // Test for game over
     // TODO: check for end-of-game
@@ -105,7 +111,8 @@ void Phonemic::nextWord()
 void Phonemic::allSmiles() {
     for(CubeID cube: CubeSet::connected())
 	{
-        cubes[cube].vid.bg0.image(vec(0,0), Cat);
+        cubes[cube].vid.bg0.image(vec(0,0), Smile/*word_pictures[word_num]*/);
+		//cubes[cube].vid.bg0.image(vec(0,0), Cat);
 	//cubes[cube].vid.bg0.image(vec(0,0), Smile);
     }
 }
@@ -205,7 +212,9 @@ void Phonemic::checkForWord(unsigned id) {
     // Recognize match
 	if(match) {
     	//sounding.play(SfxChime);
-		sounding.play(SfxCat);
+		//sounding.play(SfxCat);
+		
+		sounding.play(SfxChime /*word_sounds[word_num]*/);
         allSmiles();
         System::paint();
         state = WORD_FOUND;
