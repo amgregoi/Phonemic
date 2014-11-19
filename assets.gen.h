@@ -7,10 +7,10 @@
 #pragma once
 
 extern Sifteo::AssetGroup BootstrapAssets;
-extern const Sifteo::AssetImage Smile;
-extern const Sifteo::AssetImage Cat;
-extern const Sifteo::AssetImage Sleep;
 extern const Sifteo::PinnedAssetImage Highlight;
+extern const Sifteo::AssetImage Smile;
+extern const Sifteo::AssetImage Sleep;
+extern const Sifteo::AssetImage Cat;
 extern Sifteo::AssetGroup IconAssets;
 extern const Sifteo::AssetImage Icon;
 extern const Sifteo::AssetImage Grapheme_b[2];

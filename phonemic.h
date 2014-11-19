@@ -6,6 +6,7 @@
 #define _PHONEMIC_H
  
 #include <sifteo.h>
+#include <sifteo/string.h>
 #include "assets.gen.h"
 #include "pairings.h"
 #include "word_families.h"

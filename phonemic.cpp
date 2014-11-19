@@ -7,7 +7,9 @@
 #include "phonemic.h"
  
 #define LAST_LEVEL 24
- 
+#define FILE_LENGTH 100
+#define SPLIT_LENGTH 25
+
 Random gRandom;
  
 /**
@@ -28,11 +30,51 @@ void Phonemic::title()
 }
 
 
+//ifstream infile("dictionary.txt");
+
+String<100> dcopy(String<100> s)
+{
+    String<100> ret;
+	int temp;
+    for(int i=0; i<strnlen(s, 100); i++)
+	{
+		temp = (int)s[i];
+        ret[i]= (char)temp;
+	}
+        return (s=ret);
+}
+
+/*fill dictionary */
+void fillDictionary(String<100> splitArray[FILE_LENGTH][20])
+{
+	int wordNumber, begin, insert, arrCount=0;
+	String<100> line, temp;
+        for(wordNumber = 0;getline(infile, line); wordNumber++, insert++)
+        {
+                for(begin=insert=0; begin <strnlen(line,100); begin++)
+                 {
+                        if(line[begin] == ' ')
+                        {
+                                splitArray[wordNumber][arrCount] = dcopy(temp);
+                                arrCount++;
+								insert--;
+                                temp.clear();
+                        }
+                        else
+                                temp[insert]=line[begin];
+                }
+		arrCount = 0;
+        }
+}
+
+
+
 /**
   * Initializes the Phonemic app
   */
 void Phonemic::init()
 {
+
 	Events::neighborAdd.set(&Phonemic::onNeighborAdd, this);
 	Events::neighborRemove.set(&Phonemic::onNeighborRemove, this);
 	Events::cubeTouch.set(&Phonemic::onTouch, this);
@@ -69,6 +111,9 @@ void Phonemic::nextWord()
         word = 0;
     }
 
+	String<100> splitArray[FILE_LENGTH][20];//[FILE_LENGTH][SPLIT_LENGTH];
+	fillDictionary(splitArray);
+	
     // Test for game over
     // TODO: check for end-of-game
     int length = 0;
@@ -277,7 +322,7 @@ void Phonemic::onNeighborAdd(unsigned firstID, unsigned firstSide, unsigned seco
     // Behaviour is dependent on the current app state
     if(state == PLAY)
         // Only allow left-to-right (reading order) connections
-        if((firstSide == LEFT && secondSide == RIGHT)||(firstSide == RIGHT && secondSide == LEFT)) 
+        if((firstSide == LEFT && secondSide == RIGHT)||(firstSide == RIGHT && secondSide == LEFT))
         {
             playSfx(SfxAttach);
             soundOut(leftmostNeighbor(firstID));
