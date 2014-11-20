@@ -1,7 +1,7 @@
 
 #include "word_pictures.h"
 
-word_pictures = {
+WordPicture wordPictures[] = {
 	&ChunkImage_apple,
 	&ChunkImage_back,
 	&ChunkImage_ball,

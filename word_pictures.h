@@ -8,6 +8,8 @@ const int NUMBER_PICS = 16;
  
 using namespace Sifteo;
 
-const Sifteo::AssetImage *word_pictures[8];
+struct WordPicture {
+    const Sifteo::AssetImage *picture;
+};
  
 #endif

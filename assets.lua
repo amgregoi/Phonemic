@@ -7,6 +7,8 @@
 IconAssets = group{ quality=9.95 }
 Icon = image{ "assets/phonemic.png" }
 
+Font = image{"font-8x16.png", pinned=true, width=8, height=16}
+
 BootstrapAssets = group{ quality=9.9 }
 Smile = image{ "assets/smile.png" }
 --Cat = image{ "assets/cat.png" }

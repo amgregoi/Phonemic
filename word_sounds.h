@@ -8,6 +8,8 @@ const int NUMBER_SOUNDS = 16;
  
 using namespace Sifteo;
 
-const Sifteo::AssetAudio *word_sounds[8];
+struct WordSound {
+    const Sifteo::AssetAudio *sound;
+};
  
 #endif

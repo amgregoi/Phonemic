@@ -1,7 +1,7 @@
 
 #include "word_sounds.h"
 
-word_sounds = {
+WordSound wordSounds[] = {
 	&ChunkSound_apple,
 	&ChunkSound_back,
 	&ChunkSound_ball,
